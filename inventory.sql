@@ -13,35 +13,35 @@ CREATE TABLE products(
 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('cauldron (pewter, standard size 2)', 'household', 5.00, 5);
+VALUES ('cauldrons (pewter, standard size two)', 'household', 5.00, 5);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('set of crystal phials', 'household', 2.00, 10);
+VALUES ('crystal phials sets', 'household', 2.00, 10);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('silver unicorn horn', 'apothecary', 21.00, 1);
+VALUES ('silver unicorn horns', 'apothecary', 21.00, 1);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('root of asphodel', 'apothecary', 0.05, 50);
+VALUES ('roots of asphodel', 'apothecary', 0.05, 50);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('screech owl', 'pets', 2.00, 2);
+VALUES ('screech owls', 'pets', 2.00, 2);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('toad', 'pets', 0.20, 10);
+VALUES ('toads', 'pets', 0.20, 10);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('A History of Magic by Bathilda Bagshot', 'books', 0.10, 10);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('The Standard Book of Spells (Grade 1) by Miranda Goshawk', 'books', 0.10, 10);
+VALUES ('The Standard Book of Spells (Grade One) by Miranda Goshawk', 'books', 0.10, 10);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Bludger', 'sports', 5.00, 5);
+VALUES ('Bludgers', 'sports', 5.00, 5);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Nimbus Two Thousand', 'sports', 30.00, 5);
+VALUES ('Nimbus Two Thousands', 'sports', 30.00, 5);
 
 -- SHOW TABLES;
--- SELECT * FROM products \G;
-SELECT item_id, product_name, price FROM products \G;
+SELECT * FROM products \G;
+-- SELECT item_id, product_name, price FROM products \G;
