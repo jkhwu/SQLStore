@@ -1,0 +1,24 @@
+{
+  "name": "sqlstore",
+  "version": "1.0.0",
+  "description": "command line interface, store inventory MySQL database",
+  "main": "customer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkhwu/SQLstore.git"
+  },
+  "author": "jkhwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkhwu/SQLstore/issues"
+  },
+  "homepage": "https://github.com/jkhwu/SQLstore#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0",
+    "node-cmd": "^3.0.0"
+  }
+}

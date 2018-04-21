@@ -43,5 +43,5 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('Nimbus Two Thousand', 'sports', 30.00, 5);
 
 -- SHOW TABLES;
--- SELECT * FROM PRODUCTS \G;
-SELECT * FROM PRODUCTS;
+-- SELECT * FROM products \G;
+SELECT item_id, product_name, price FROM products \G;
